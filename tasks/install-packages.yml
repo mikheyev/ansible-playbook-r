@@ -3,8 +3,7 @@
   include_vars: vars/packages.yml
 
 - name: Install shared libraries
-  apt: name={{ item }}
-  with_items: "{{ shared_libraries }}"
+  apt: name={{ shared_libraries }}
 
 - name: Setup repo
   copy: content="options(repos = c(CRAN = 'https://cran.rstudio.com'))" dest=~/.Rprofile
