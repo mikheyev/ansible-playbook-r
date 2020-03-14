@@ -10,6 +10,9 @@
   copy: content="options(repos = c(CRAN = 'https://cran.rstudio.com'))" dest=~/.Rprofile
   become: no
 
+- name: Install littler
+  apt: name=r-cran-littler allow_unauthenticated=yes
+
 - name: Get R_LIBS_USER
   command: /usr/bin/r -e 'cat(Sys.getenv("R_LIBS_USER"))'
   become: no
