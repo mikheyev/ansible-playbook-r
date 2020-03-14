@@ -3,6 +3,7 @@ cran_packages:
   # tidyverse packages:
   # broom, DBI, dplyr, forcats, ggplot2, haven, httr, hms, jsonlite, lubridate, magrittr,
   # modelr, purrr, readr, readxl, stringr, tibble, rvest, tidyr, xml2
+  - littler
   - tidyverse
   # ggplot2
   - gridExtra
