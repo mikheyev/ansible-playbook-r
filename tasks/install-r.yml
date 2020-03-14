@@ -6,4 +6,4 @@
   apt_key: keyserver=keyserver.ubuntu.com id=E084DAB9
 
 - name: Install R
-  apt: name=r-base update_cache=yes
+  apt: name=r-base update_cache=yes allow_unauthenticated=yes
