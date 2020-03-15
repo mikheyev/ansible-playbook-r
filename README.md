@@ -9,3 +9,5 @@ $ sudo apt-get install git ansible
 $ git clone https://github.com/yutannihilation/ansible-playbook-r
 $ ansible-playbook ansible-playbook-r/deploy-rstudio-server.yml
 ```
+
+[Instructions](https://github.com/grantmcdermott/rstudio-compute-engine) to have this run on Google Compute Engine
