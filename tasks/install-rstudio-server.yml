@@ -9,7 +9,7 @@
 
 - name: Get the archive of RStudio Server
   apt: deb=http://download2.rstudio.org/server/bionic/amd64/rstudio-server-{{ rstudio_version.content.split("-")[0] }}-amd64.deb
-  become: no
+  become: yes
 
 #- name: Install RStudio Server
 #  command: /usr/bin/gdebi --non-interactive /tmp/rstudio.deb
