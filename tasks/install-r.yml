@@ -1,6 +1,6 @@
 ---
 - name: Add APT repository
-  apt_repository: repo="deb https://cran.rstudio.com/bin/linux/ubuntu/ {{ ansible_distribution_release }}/" mode=644
+  apt_repository: repo="deb https://cloud.r-project.org/bin/linux/ubuntu {{ ansible_distribution_release }}/" mode=644
 
 - name: Add the APT key
   apt_key: keyserver=keyserver.ubuntu.com id=E084DAB9
