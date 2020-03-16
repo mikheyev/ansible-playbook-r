@@ -8,11 +8,10 @@ cran_packages:
   - gridExtra
   - ggrepel
   - ggfortify
+  - scatterpie
   # opencpu packages
   - curl
   - jsonlite
-  - V8
-  - magick
   # Rmarkdown
   - rmarkdown
   - knitr
@@ -28,13 +27,6 @@ cran_packages:
   - Rcpp
   - RcppRoll
   - RcppEigen
-  # GIS
-  - leaflet
-  - DiagrammeR
-  - sp
-  - rgeos
-  - rgdal
-  - maptools
   # Shiny
   - rstudioapi
   - shiny
@@ -65,4 +57,3 @@ shared_libraries:
   - protobuf-compiler
 
 #github_packages:
-
