@@ -1,6 +1,6 @@
 ---
 - name: Add APT repository
-  apt_repository: repo="deb https://cloud.r-project.org/bin/linux/ubuntu {{ ansible_distribution_release }}-cran35" mode=644
+  apt_repository: repo="deb https://cloud.r-project.org/bin/linux/ubuntu {{ ansible_distribution_release }}-cran35/" mode=644
 
 - name: Add the APT key
   apt_key: keyserver=keyserver.ubuntu.com id=E298A3A825C0D65DFD57CBB651716619E084DAB9
