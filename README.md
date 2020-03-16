@@ -15,3 +15,5 @@ ansible-playbook ansible-playbook-r/deploy-rstudio-server.yml
 ```
 sudo gcloud compute firewall-rules create allow-rstudio --allow=tcp:8787
 ```
+
+Tested with Ubuntu 19.10.
