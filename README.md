@@ -6,7 +6,7 @@ An Ansible Playbook to deploy RStudio Server
 sudo apt-add-repository ppa:ansible/ansible
 sudo apt update
 sudo apt-get install git ansible
-git clone https://github.com/yutannihilation/ansible-playbook-r
+git clone https://github.com/mikheyev/ansible-playbook-r
 ansible-playbook ansible-playbook-r/deploy-rstudio-server.yml
 ```
 
